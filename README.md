@@ -3,7 +3,7 @@ Este é um repositório com um conjunto de funções que facilitarão o uso da p
 ## Ambiente de execução
 Para usar a bibliteca deste repositório, devemos configurar um projeto raspberry pi pico através da extensão do VScode "Raspberry Pi Pico". Após o projeto base estar criado, podemos instalar a biblioteca.
 
-## Subibliotecas implementadas
+## bibliotecas implementadas
 - led_matrix: Possui funções específicas para trabalhar com a matriz de leds da BitDogLab.
 
 ## Como instalar
@@ -33,7 +33,7 @@ Simplemente execute o arquivo "setup" no terminal da pasta de seu projeto. Execu
 ## Como usar
 Para utilizar a biblioteca no código principal, basta importá-la no início do código principal.
 
-Por exemplo, para importar a subiblioteca led_matrix, você poderia fazer assim:
+Por exemplo, para importar a biblioteca led_matrix, você poderia fazer assim:
 ```c
 #include "BDL_lib/led_matrix"
 ```
