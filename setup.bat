@@ -1,8 +1,5 @@
 @echo off
 
-:: Clonar o repositório
-git clone https://github.com/Daniel-Alencar/BDL_lib BDL_lib
-
 :: Entrar no diretório
 cd BDL_lib
 
