@@ -17,7 +17,6 @@ git clone https://github.com/Daniel-Alencar/BDL_lib BDL_lib
 ```
 cd BDL_lib
 ```
-
 ```
 rm -rf .git
 ```
@@ -28,7 +27,15 @@ pico_generate_pio_header(pio_matrix ${CMAKE_CURRENT_LIST_DIR}/BDL_lib/led_matrix
 ```
 ### Maneira 2
 
-Simplemente execute o arquivo "setup" no terminal da pasta de seu projeto. Execute setup.sh no Linux e setup.bat no Windows.
+Em seu projeto raspberry pi pico, abra o terminal e realize os seguintes comandos:
+
+```
+git clone https://github.com/Daniel-Alencar/BDL_lib BDL_lib
+```
+```
+cd BDL_lib
+```
+Simplesmente execute o arquivo "setup" no terminal da pasta de seu projeto. Execute "sh setup.sh" no Linux e "setup.bat" no Windows.
 
 ## Como usar
 Para utilizar a biblioteca no código principal, basta importá-la no início do código principal.
