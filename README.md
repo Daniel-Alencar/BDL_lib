@@ -12,7 +12,7 @@ Para usar a bibliteca deste repositório, devemos configurar um projeto raspberr
 Em seu projeto raspberry pi pico, abra o terminal e realize os seguintes comandos:
 
 ```
-git clone https://github.com/Daniel-Alencar/BDL_lib
+git clone https://github.com/Daniel-Alencar/BDL_lib BDL_lib
 ```
 ```
 cd BDL_lib
