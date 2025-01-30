@@ -22,7 +22,7 @@ rm -rf .git
 No arquivo CMakeLists.txt adicione a seguinte linha:
 
 ```
-pico_generate_pio_header(pio_matrix ${CMAKE_CURRENT_LIST_DIR}/BDL_lib/pio_matrix.pio)
+pico_generate_pio_header(pio_matrix ${CMAKE_CURRENT_LIST_DIR}/BDL_lib/led_matrix.pio)
 ```
 
 ## Como usar
