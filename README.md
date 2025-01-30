@@ -8,7 +8,6 @@ Para usar a bibliteca deste repositório, devemos configurar um projeto raspberr
 
 ## Como instalar
 
-### Maneira 1
 Em seu projeto raspberry pi pico, abra o terminal e realize os seguintes comandos:
 
 ```
@@ -18,13 +17,24 @@ git clone https://github.com/Daniel-Alencar/BDL_lib BDL_lib
 cd BDL_lib
 ```
 ```
-rm -rf .git
+rm -rf .git # linux
+rmdir /s /q .git # windows
 ```
 No arquivo CMakeLists.txt adicione a seguinte linha:
 
-```
+```c
 pico_generate_pio_header(pio_matrix ${CMAKE_CURRENT_LIST_DIR}/BDL_lib/led_matrix.pio)
 ```
+Essa linha deve ser adicionada onde é indicado abaixo:
+```c
+pico_enable_stdio_uart(...)
+pico_enable_stdio_usb(...)
+
+# AQUI
+
+target_sources(...)
+```
+
 ### Maneira 2
 
 Em seu projeto raspberry pi pico, abra o terminal e realize os seguintes comandos:
