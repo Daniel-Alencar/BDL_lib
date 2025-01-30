@@ -18,7 +18,8 @@ cd BDL_lib
 ```
 ```
 rm -rf .git # linux
-rmdir /s /q .git # windows
+rmdir /s /q .git # windows CMD
+Remove-Item -Recurse -Force .git # windows Powershell
 ```
 No arquivo CMakeLists.txt adicione a seguinte linha:
 
